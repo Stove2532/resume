@@ -1,0 +1,251 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Tiffany Thu Olsen, G.I.T.} \\ \vspace{1pt}
+    \small 832-729-0331 $|$ \href{mailto:tiffany.thu.olsen@gmail.com}{\underline{tiffany.thu.olsen@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/tiffanythuolsen/}{\underline{linkedin.com/in/tiffanythuolsen/}} 
+  %  \href{https://github.com/...}{\underline{github.com/Stove2532}}
+\end{center}
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{The University of Alabama}{Tuscaloosa, AL}
+{M.S. in Geology, GPA 4.0} {}
+{}
+\resumeItemListStart
+\resumeItem
+{Thesis: Reservoir Characterization of the Hartselle Sandstone in the Vicinity of Gorgas Power Plant, using Amplitude Variation with Offset (AVO). }
+\resumeItemListEnd
+\resumeSubheading
+{Texas A\&M University}{College Station, TX}
+{B.S. in Geophysics, Minors in Mathematics and Geology, GPA 3.6}{}
+ \\
+
+
+
+\resumeSubHeadingListEnd
+
+
+%
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+		\textbf{Geologic skills:}{ Seismic interpretation, well log analysis, geological mapping, GIS (ESRI ArcGIS), geologic software (Petrel, Surfer, Hampson-Russell's GeoView, RoseRA) \\
+				\textbf{Other skills}{: Programming (Python, Java, Javascript, and C), communication and presentation skills, bilingual (Vietnamese and English), Certifications (Harvard's CS50x Certificate, Geologist-In-Training Certificate)} \\
+				
+
+				\end{itemize}
+				
+				%--------------------
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Geologist I}{May. 2024 -- Present}
+      {Geological Survey of Alabama}{Tuscaloosa, AL}
+      \resumeItemListStart
+        \resumeItem{Conducting research in geology and mineral, energy, and water resources of the state.}
+     
+              
+
+        
+        
+      \resumeItemListEnd
+ \resumeSubHeadingListEnd     
+ 
+   \resumeSubHeadingListStart
+ 
+ \resumeSubheading
+ {Instructor of Geology, Lab Coordinator, Assistant Director of Outreach}{Aug. 2019 -- May 2024}
+ {University of South Alabama}{Mobile, AL}
+ \resumeItemListStart
+ \resumeItem{Conducted geologic field work with the Unviersity of South Alabama professors and students during geology field course}
+ 
+ \resumeItem{ Received the Teaching Excellence Award from the College of Art \& Sciences.}
+ 
+ 
+ \resumeItem{Co-director of the Mobile Regional Science and Engineering Fair.}
+  \resumeItem{Taught and coordinated geology labs.}
+ 
+ \resumeItem{Delivered presentations on various topics and oversaw the geology booth at recruiting events.}
+ 
+ 
+ 
+ 
+ 
+ \resumeItemListEnd
+ \resumeSubHeadingListEnd     
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Staff Geologist}{Nov. 2018 --May 2019}
+      {Larson \& Associates, Inc.}{Midland, TX}
+      \resumeItemListStart
+       \resumeItem{Conducted geologic field work and research on the geology and water resources of New Mexico and West Texas.}
+              \resumeItem{Conducted 58-acre magnetometer survey to locate plugged and abandoned wellbores, processed and interpreted magnetic results. }
+             \resumeItem{Prepared geological cross-sections, groundwater maps, and technical reports, interpreted laboratory analysis from media samples.}
+
+
+
+    \resumeItemListEnd
+     \resumeSubHeadingListEnd 
+     
+  \resumeSubHeadingListStart
+    \resumeSubheading
+{GIS Intern}{Summer 2018}
+{Setld, Inc.}{Pearland, TX}
+\resumeItemListStart
+\resumeItem{Digitized 500+ miles of oil and gas pipelines locations using ArcGIS to improve data accuracy and support Setld's GIS/ BI product.}
+\resumeItem{Developed Setld's North American data product by inputting oil and gas data into the company's proprietary model with a team. }
+
+\resumeSubHeadingListEnd
+
+\resumeSubheading
+{Geophysics and Economic Evaluation Team Lead }{Spring 2017}
+{AAPG's Imperial Barrel Award Competition}{Anadarko Office - Spring, TX}
+\resumeItemListStart
+\resumeItem{Conducted prospective basin analysis with graduate geoscience students, analyzing seismic and well log data to identify two prospects in the Taranaki Basin, NZ. Delivered a 25-minute presentation to judges.}
+    \resumeItemListEnd
+
+
+
+
+
+\resumeSubheading
+{Student Technician}{Summer 2015}
+{Handin Laboratory for Experimental Rock Deformation, Texas A\&M University}{College Station, TX}
+\resumeItemListStart
+\resumeItem{Conducted salt consolidation experiments to support research on salt rock deformation in rock mechanic labs
+}
+\resumeItem{	Performed thin section making and analyzed grain size distribution using Excel.}
+
+
+
+\resumeItemListEnd
+\resumeSubHeadingListEnd 
+
+
+\end{document}
